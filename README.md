@@ -1,11 +1,11 @@
 # Parking-Lot-Design
 
 ## Background
-Parking lots have open spaces for vehicles to park in. Vehicles can be of different sizes, e.g. cars, limos, trucks, etc.
+* Parking lots have open spaces for vehicles to park in. Vehicles can be of different sizes, e.g. cars, limos, trucks, etc.
 
-In some cases, parking spots can be numbered. For large venues, parking lots may have multiple levels, i.e. parking garages.
+* In some cases, parking spots can be numbered. For large venues, parking lots may have multiple levels, i.e. parking garages.
 
-Sometimes parking is free, but in other cases customers have to pay. So parking lots can have a payment system to keep track of parked vehicles.
+* Sometimes parking is free, but in other cases customers have to pay. So parking lots can have a payment system to keep track of parked vehicles.
 
 ## Requirements
 ### Some possible questions to ask:
