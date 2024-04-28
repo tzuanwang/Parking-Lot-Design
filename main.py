@@ -17,9 +17,7 @@
 from ParkingLot import ParkingLot
 from ParkingSystem import ParkingSystem
 from Driver import Driver
-from Car import Car
-from Truck import Truck
-from Limo import Limo
+from Vehicle import Car, Limo, Truck
 
 
 parkingLot = ParkingLot(3, 2)
