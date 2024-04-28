@@ -1,6 +1,8 @@
 class ParkingFloor:
     def __init__(self, spot_count):
+        # 0 is vaccant, 1 is occupied
         self._spots = [0] * spot_count
+        # position of the car
         self._vehicle_map = {}
 
     def park_vehicle(self, vehicle):
@@ -10,7 +12,7 @@ class ParkingFloor:
             if self._spots[r] != 0:
                 l = r + 1
             if r - l + 1 == size:
-                # we found enough spots, park the vehicle
+                # we have enough spots to park the vehicle
                 for k in range(l, r+1):
                     self._spots[k] = 1
                 self._vehicle_map[vehicle] = [l, r]
